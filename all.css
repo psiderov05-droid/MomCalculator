@@ -21,77 +21,48 @@
 /* Base styles */
 body {
     background-color: #ffffff;
-    font-family: 'Inter', sans-serif;
     font-size: large;
     margin: 0;
     padding: 0;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-    padding: 2rem;
-}
-
-
-/* Header and menu */
-#menu_background{
-    width: 100vw;
-    height: 6rem;
-    background: linear-gradient(to right, #efc6b2, #f1e3cd);
-}
-
-#menu {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin: 2rem auto;
-    font-weight: bold;
-}
-
-#menu td {
-    background-color: #E91E63;
-    border-radius: 10px;
-    padding: 1rem;
-}
-
-#menu a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 
 /* Main page */
+
 
 /* main page menu*/
 
 #main_menu_background{
     margin-top: -2rem;
     width: 100vw;
-    height: 6rem;
+    height: 8rem;
     background: linear-gradient(to right, #efc6b2, #f1e3cd);
 }
 
 #main_menu{
-    padding-top: 1rem;
     display: flex;
+    align-items: start;
+    padding-top: 3rem;        
+    gap: 18px;             
     justify-content: center;
-    gap: 1rem;
-    margin: 2rem auto;
-    font-weight: bold;
 }
 
-#main_menu td {
-    background-color: #E91E63;
-    border-radius: 10px;
-    padding: 1rem;
-}
 
-#main_menu a {
-    color: #ffffff;
-    text-decoration: none;
+.menu_button{
+    position: relative;
+    font-size: 30px;
+    background-color: #E91E63;;
+    border-color: transparent;
+    border-radius: 20px;
+    border-width: 10px;
+    color: white;
+
+    white-space: nowrap;       /* NEVER wrap text */
+    overflow:visible;          /* hide overflow if it doesn’t fit */
+    text-overflow:inherit;   /* add "…" if text is too long */
+
+
+    
 }
 
 
@@ -250,7 +221,12 @@ main {
     background: linear-gradient(45deg, #efc6b2, #f1e3cd);
 }
 
-
+#foot_note_div{
+    margin-left: 50%;
+}
+#foot_note_text{
+    margin-left: -10rem;
+}
 
 /* Calendar */
 #calendar {
@@ -300,16 +276,12 @@ main {
 }
 
 
-#start_name_search {
-    width: 200px;
-    height: 30px;
-    border: 1px solid black;
-    padding: 0.5rem;
-}
 
 #start_name_search {
-    width: 40px;
+    width: 160px;
+    height: 60px;
     cursor: pointer;
+    font-size: xx-large;
 }
 
 #start_name_search:active {
@@ -328,18 +300,3 @@ main {
 }
 
 /* Calculator */
-
-
-/* Responsive layout */
-@media (max-width: 768px) {
-
-
-    #menu {
-        flex-wrap: wrap;
-    }
-
-    #name_generator input,
-    #start_name_search {
-        width: 100%;
-    }
-}
