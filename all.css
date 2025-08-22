@@ -473,7 +473,25 @@ body {
     #foot_note_text{
         margin-left: -10rem;
     }
+
+    /* Calculator*/
+    #calculator_main_body{
+        width: 300%;
+    }
+
+
+
     /* Calendar */
+    /*The calendar has its own menu, because it is too fat*/
+    #calendar_main_menu_background{
+        margin-top: -2rem;
+        width: 390%;
+        height: 8rem;
+        background: linear-gradient(to right, #efc6b2, #f1e3cd);
+    }
+    #calendar_background{
+        width: 300%;
+    }
     #calendar {
         border-collapse: collapse;
         margin: 2rem auto;
@@ -513,6 +531,10 @@ body {
 }
 
 /* Name Generator */
+#name_generator_body{
+    width: 300%;
+}
+
 #name_generator_body, #name_generator_body td{
     display: flex;
     justify-content: center;
