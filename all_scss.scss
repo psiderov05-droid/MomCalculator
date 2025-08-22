@@ -1,0 +1,314 @@
+// =======================
+// Variables
+// =======================
+$primary-color: #E91E63;
+$secondary-gradient: linear-gradient(to right, #efc6b2, #f1e3cd);
+$highlight-gradient: linear-gradient(45deg, #fb8184, #fe70a0);
+$font-regular: 'MyFont', sans-serif;
+$font-bold: 'MyFontBold', sans-serif;
+
+// Breakpoints
+$mobile: 768px;
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+// =======================
+// Fonts
+// =======================
+@font-face {
+  font-family: 'MyFontBold';
+  src: url('font/EauTest/eautest_bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('font/EauTest/eautest_regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// =======================
+// Base Styles
+// =======================
+body {
+  background-color: #ffffff;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+  font-family: $font-regular;
+}
+
+// =======================
+// Menu
+// =======================
+#main_menu_background {
+  margin-top: -2rem;
+  width: 100vw;
+  height: 8rem;
+  background: $secondary-gradient;
+}
+
+#main_menu {
+  display: flex;
+  align-items: start;
+  padding-top: 3rem;
+  gap: 18px;
+  justify-content: center;
+
+  .menu_button {
+    position: relative;
+    font-size: 30px;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+
+    @include mobile {
+      font-size: 18px;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+
+// =======================
+// Impact Section
+// =======================
+#impact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+
+  #impact_text_1 {
+    color: #ff9cb5;
+    font-size: xx-large;
+    margin-top: 2rem;
+  }
+
+  #impact_text_2 {
+    color: #ff9cb5;
+    font-size: large;
+    margin-top: 0.5rem;
+  }
+
+  #impact_img {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+// =======================
+// Empathy Section
+// =======================
+#empathy {
+  width: 100vw;
+  background: $secondary-gradient;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  #empathy_text_1 {
+    font-size: xx-large;
+    margin-bottom: 0.5rem;
+  }
+
+  #empathy_text_2 {
+    font-size: large;
+    margin-bottom: 1rem;
+  }
+
+  #empathy_img {
+    width: 80%;
+    max-width: 20rem;
+    height: auto;
+  }
+}
+
+// =======================
+// Pain Section
+// =======================
+#pain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
+
+  #pain_text_1 {
+    font-weight: bold;
+    color: #ff9cb5;
+    font-size: xx-large;
+    margin-bottom: 0.5rem;
+  }
+
+  #pain_text_2 {
+    font-weight: bold;
+    color: #ff9cb5;
+    font-size: large;
+    margin-bottom: 1.5rem;
+  }
+
+  #pain_img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+// =======================
+// Authority Section
+// =======================
+#authority_background {
+  margin-top: -5rem;
+  width: 100vw;
+  background: $highlight-gradient;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #fff;
+
+  #authority {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #authority_text_1 {
+      font-size: xx-large;
+      margin-bottom: 0.5rem;
+    }
+
+    #authority_text_2 {
+      font-size: large;
+      margin-bottom: 1rem;
+    }
+
+    #authority_img {
+      filter: invert(1) brightness(2);
+      width: 90%;
+      max-width: 350px;
+      height: auto;
+    }
+  }
+}
+
+// =======================
+// Action Section
+// =======================
+#action {
+  text-align: center;
+  margin: 3rem 1rem;
+
+  #action_text_1 {
+    font-size: xx-large;
+    color: #ff9cb5;
+    margin-bottom: 0.5rem;
+  }
+
+  #action_text_2 {
+    font-size: large;
+    color: #ff9cb5;
+  }
+}
+
+// =======================
+// Footer
+// =======================
+#foot_note {
+  width: 100vw;
+  background: $secondary-gradient;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  #foot_note_text {
+    margin: 0 auto;
+  }
+}
+
+// =======================
+// Calendar
+// =======================
+#calendar {
+  border-collapse: collapse;
+  margin: 2rem auto;
+  text-align: center;
+
+  th,
+  td {
+    border: 5px solid #ffffff;
+    padding: 0.5rem;
+  }
+
+  .national_holiday {
+    background-color: #4CAF50;
+    color: white;
+  }
+}
+
+#description,
+#main_heading {
+  text-align: center;
+  margin: 1rem auto;
+  color: $primary-color;
+}
+
+#green_cube,
+#orange_cube {
+  width: 10px;
+  height: 10px;
+}
+
+#green_cube {
+  background-color: #4CAF50;
+}
+
+#orange_cube {
+  background-color: orange;
+}
+
+// =======================
+// Name Generator
+// =======================
+#name_generator_body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  td {
+    border: 5px solid #ffffff;
+  }
+
+  #start_name_search {
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    font-size: xx-large;
+
+    &:active {
+      background-color: #535051;
+    }
+  }
+
+  #out_put_for_name {
+    width: 90%;
+    max-width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow: auto;
+  }
+}

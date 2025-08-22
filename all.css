@@ -67,7 +67,9 @@ body {
 
 
 
-
+#impact_background{
+    color: white;
+}
 #impact{
     margin-left: 50%;
     height: 15rem;
@@ -86,8 +88,6 @@ body {
     margin-top: -2.5rem;
     margin-left: -24rem;
 }
-
-
 #impact_img{
     z-index: 2;
     width: 400px;
@@ -299,4 +299,178 @@ body {
     overflow: auto;
 }
 
-/* Calculator */
+
+@media(max-width: 768px)
+{
+    #main_menu_background{
+    margin-top: -2rem;
+    width: 205%;
+    height: 8rem;
+    background: linear-gradient(to right, #efc6b2, #f1e3cd);
+    }
+
+
+    #impact_background{
+        color: white;
+        width: 200%;
+    }
+    #impact{
+        margin-left: 50%;
+        height: 15rem;
+    }
+    #impact_text_1{
+        color: #ff9cb5;
+        font-size: xx-large;
+        z-index: 1;
+        margin-top: 2rem;
+        margin-left: -24rem;
+    }
+    #impact_text_2{
+        color: #ff9cb5;
+        font-size: large;
+        z-index: 1;
+        margin-top: -2.5rem;
+        margin-left: -24rem;
+    }
+    #impact_img{
+        z-index: 2;
+        width: 400px;
+        height: 350px;
+        margin-top: -13rem; /* Adjust as needed */
+        margin-left: 3rem;
+    }
+
+
+    #empathy{
+        width: 205%;
+        height: 20rem;
+        background: linear-gradient(45deg, #efc6b2, #f1e3cd);
+    }
+    #empathy_background{
+        margin-left: 50%;
+    }
+
+    #empathy_text_1{
+        padding-top: 2rem;
+        margin-left: -4rem;
+        z-index: 3;
+        font-size: xx-large;
+    }
+    #empathy_text_2{
+        font-size: large;
+        margin-top: -3rem;
+        margin-left: -4rem;   
+    }
+    #empathy_img{
+        width: 20rem;
+        height: 20rem;
+        margin-left: -25rem;
+        margin-top: -11rem;
+    }
+
+
+    #pain_background{
+        background-color: white;
+        width: 205%;
+    }
+    #pain{
+        margin-left: 50%;
+        height: 30rem;
+    }
+
+    #pain_text_1{
+        font:bold;
+        color: #ff9cb5;
+        font-size: xx-large;
+        margin-top: 3rem;
+        margin-left: -25rem;
+    }
+
+    #pain_text_2{
+        font:bold;
+        color: #ff9cb5;
+        font-size: large;
+        margin-top: -3rem;
+        margin-left: -25rem;
+    }
+
+    #pain_img {
+        z-index: 2;
+        width: 500px;
+        height: 350px;
+        margin-top: -12rem; /* Adjust as needed */
+        padding-bottom: 2rem;
+        margin-left: -8.5rem;
+    }
+
+
+    #authority_background{
+        margin-top: -5rem;
+        width: 205%;
+        height: 40rem;
+        background: linear-gradient(45deg, #fb8184, #fe70a0);
+    }
+
+    #authority{
+        margin-left: 50%;
+    }
+
+    #authority_text_1{
+        font-size: xx-large;
+        margin-left: -14rem;
+        padding-top: 5rem;
+        color: #ffffff;
+    }
+
+    #authority_text_2{
+        font-size: large;
+        margin-top: -3rem;
+        margin-left: -17.5rem;
+        color: #ffffff;
+    }
+
+    #authority_img{
+        filter: invert(1) brightness(2);
+        width: 350px;
+        height: 350px;
+        margin-left: -10rem;
+    }
+
+
+    #action_background{
+        color: white;
+        width: 205%;
+    }
+    #action{
+        margin-left: 50%;
+    }
+
+    #action_text_1{
+        margin-left: -16.99rem;
+        margin-top: 3rem;
+        font-size: xx-large;
+        color: #ff9cb5;
+    }
+
+    #action_text_2{
+        font-size: large;
+        margin-top: -2rem;
+        margin-left: -14.99999rem;
+        color: #ff9cb5;
+    }
+
+
+    #foot_note{
+        width: 205%;
+        height: 10rem;
+        background: linear-gradient(45deg, #efc6b2, #f1e3cd);
+    }
+
+    #foot_note_div{
+        margin-left: 50%;
+    }
+
+    #foot_note_text{
+        margin-left: -10rem;
+    }
+}
