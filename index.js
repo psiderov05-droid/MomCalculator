@@ -18,7 +18,9 @@ window.addEventListener("resize", updateMenuWidth);
 
 // Debug logging
 if (isMobile()) {
-    console.log("Mobile mode activated!");
+    if(window.innerWidth != 360){
+        menuBackground.style.width = 350+"%";
+    }
 } else {
     console.log("I am on a computer!!!!");
 }
