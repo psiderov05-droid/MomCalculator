@@ -31,10 +31,16 @@ body {
 
 
 /* main page menu*/
+#calendar_main_menu_background{
+    margin-top: -2rem;
+    width: 0vw;
+    height: 8rem;
+    background: linear-gradient(to right, #efc6b2, #f1e3cd);
+}
 
 #main_menu_background{
     margin-top: -2rem;
-    width: 100vw;
+    width: 0vw;
     height: 8rem;
     background: linear-gradient(to right, #efc6b2, #f1e3cd);
 }
