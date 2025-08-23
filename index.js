@@ -6,8 +6,8 @@ function isMobile() {
 
 function updateMenuWidth() {
     const width = window.innerWidth;
-    menueBackground.style.width = width + "px";
-}
+        menuBackground.style.width = window.innerWidth + "px";
+    }
 
 if (isMobile()) {
     updateMenuWidth();
