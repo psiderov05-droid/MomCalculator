@@ -310,7 +310,7 @@ body {
 {
     #main_menu_background{
     margin-top: -2rem;
-    width: 300%;
+    width: 350%;
     height: 8rem;
     background: linear-gradient(to right, #efc6b2, #f1e3cd);
     }
@@ -318,7 +318,7 @@ body {
 
     #impact_background{
         color: white;
-        width: 300%;
+        width: 350%;
     }
     #impact{
         margin-left: 50%;
@@ -348,7 +348,7 @@ body {
 
 
     #empathy{
-        width: 300%;
+        width: 350%;
         height: 20rem;
         background: linear-gradient(45deg, #efc6b2, #f1e3cd);
     }
@@ -412,7 +412,7 @@ body {
 
     #authority_background{
         margin-top: -5rem;
-        width: 300%;
+        width: 350%;
         height: 40rem;
         background: linear-gradient(45deg, #fb8184, #fe70a0);
     }
@@ -445,7 +445,7 @@ body {
 
     #action_background{
         color: white;
-        width: 300%;
+        width: 350%;
     }
     #action{
         margin-left: 50%;
@@ -467,7 +467,7 @@ body {
 
 
     #foot_note{
-        width: 300%;
+        width: 350%;
         height: 10rem;
         background: linear-gradient(45deg, #efc6b2, #f1e3cd);
     }
@@ -482,7 +482,7 @@ body {
 
     /* Calculator*/
     #calculator_main_body{
-        width: 300%;
+        width: 350%;
     }
 
 
@@ -491,12 +491,12 @@ body {
     /*The calendar has its own menu, because it is too fat*/
     #calendar_main_menu_background{
         margin-top: -2rem;
-        width: 390%;
+        width: 350%;
         height: 8rem;
         background: linear-gradient(to right, #efc6b2, #f1e3cd);
     }
     #calendar_background{
-        width: 300%;
+        width: 350%;
     }
     #calendar {
         border-collapse: collapse;
@@ -538,7 +538,7 @@ body {
 
 /* Name Generator */
 #name_generator_body{
-    width: 300%;
+    width: 350%;
 }
 
 #name_generator_body, #name_generator_body td{
