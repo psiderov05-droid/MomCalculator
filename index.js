@@ -1,4 +1,9 @@
 const menuBackground = document.getElementById("main_menu_background");
+const impact_background = document.getElementById("impact_background");
+
+
+
+
 
 function isMobile() {
     return window.innerWidth <= 414 || /Android|iPhone|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
@@ -20,6 +25,7 @@ window.addEventListener("resize", updateMenuWidth);
 if (isMobile()) {
     if(window.innerWidth != 360){
         menuBackground.style.width = 350+"%";
+        impact_background.style.width = 350+"%";
     }
 } else {
     console.log("I am on a computer!!!!");
