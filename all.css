@@ -305,6 +305,16 @@ body {
     overflow: auto;
 }
 
+.underText{
+    margin-left: 50%;
+}
+.underTextContents{
+    margin-left: -45rem;
+    text-align: center;
+}
+.listUnderText{
+    margin-left: -15rem;
+}
 
 @media(max-width: 768px)
 {
