@@ -584,10 +584,6 @@ body {
     padding: 1rem;
     overflow: auto;
 }
-    #specialBackGround{
-        margin-top: 10%;           
-        margin-left: 50%;
-    }
     .underText{
         margin-left: 50%;
     }
@@ -597,5 +593,9 @@ body {
     }
     .listUnderText{
         margin-left: -15rem;
+    }
+    #specialBackGround{
+        margin-top: 10%;           
+        margin-left: 50%;
     }
 }

@@ -20,6 +20,7 @@ window.addEventListener("resize", updateMenuWidth);
 // Debug logging
 if (isMobile()) {
     console.log("Mobile mode activated!");
+    
 } else {
     console.log("I am on a computer!!!!");
 }
