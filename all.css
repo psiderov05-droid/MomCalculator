@@ -315,6 +315,9 @@ body {
 .listUnderText{
     margin-left: -15rem;
 }
+#specialBackGround{
+    padding-top: 1%;           
+}
 
 @media(max-width: 768px)
 {
@@ -582,10 +585,7 @@ body {
     overflow: auto;
 }
     #specialBackGround{
-        margin-top: -2rem;
-        width: 350%;
-        height: 8rem;
-        background: linear-gradient(to right, #efc6b2, #f1e3cd);           
+        padding-top: 1%;           
     }
     .underText{
         margin-left: 50%;
