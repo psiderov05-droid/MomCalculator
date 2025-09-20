@@ -316,7 +316,7 @@ body {
     margin-left: -15rem;
 }
 #specialBackGround{
-    padding-top: 1%;           
+    margin-top: 10%;
 }
 
 @media(max-width: 768px)
@@ -585,7 +585,8 @@ body {
     overflow: auto;
 }
     #specialBackGround{
-        padding-top: 1%;           
+        margin-top: 10%;           
+        margin-left: 50%;
     }
     .underText{
         margin-left: 50%;
