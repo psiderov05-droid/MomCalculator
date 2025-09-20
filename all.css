@@ -595,7 +595,8 @@ body {
         margin-left: -15rem;
     }
     #specialBackGround{
-        margin-top: 10%;           
+        position: absolute;
+        margin-top: 15rem;
         margin-left: 50%;
     }
 }
