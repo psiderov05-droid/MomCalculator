@@ -594,9 +594,4 @@ body {
     .listUnderText{
         margin-left: -15rem;
     }
-    #specialBackGround{
-        position: absolute;
-        margin-top: 15rem;
-        margin-left: 50%;
-    }
 }
