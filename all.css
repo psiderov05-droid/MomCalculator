@@ -321,6 +321,12 @@ body {
 
 @media(max-width: 768px)
 {
+    #underText{
+        margin-left: 270%;
+    }
+    #underTextList{
+        margin-left: -30rem;
+    }
     .underText{
         margin-left: 50%;
     }
